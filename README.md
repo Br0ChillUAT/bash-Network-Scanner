@@ -1,8 +1,8 @@
-# B-sh-Network-Scanner
+# Bash-Network-Scanner
 
 # Network Vulnerability Scanner and Report Generator
 
-A Bash script that scans a network, which should be done with consent or own network.
+Any Bash script that scans a network should be done with consent or own network.
 
 ## Overview:
 Lines of command to arrive at a finite result.
