@@ -9,21 +9,21 @@ fi
 TARGET=$1
 REPORT_FILE="networkscan_report.txt"
 
-# Functions & Print Outs
+# Functions for prints
 write_header() {
   echo "NETWORK SECURITY SCAN REPORT"
-  echo
-  echo "Target IP:"
-  echo "$TARGET"
+  echo "Target IP: $TARGET"
+  echo "Date: $(date)"
   echo
 }
 
 write_ports_section() {
-  echo "Open Ports & Verified Services:"
-  echo 
-nmap -sV "$TARGET" | grep "open"
-echo
+  echo "Open Ports & Services using nMap v2:"
+  nmap -sV "$TARGET" | grep "open" || {
+  echo "(Zero open ports located or failed scan)"
 }
+  echo
+ }
 
 write_vulns_section() {
   echo "Possible Vulnerabilities:"
@@ -46,8 +46,8 @@ write_footer() {
 }
 
 main() {
-  # Start Documentations
-  write_header > "$REPORT_FILE"
+  # Data collected?
+  write_header >> "$REPORT_FILE"
   write_ports_section >> "$REPORT_FILE"
   write_vulns_section >> "$REPORT_FILE"
   write_recs_section >> "$REPORT_FILE"
@@ -56,6 +56,7 @@ main() {
   echo "Report saved to $REPORT_FILE"
 }
 
-# Run the script within the terminal
+# Verify?
 main "$@"
+
 
