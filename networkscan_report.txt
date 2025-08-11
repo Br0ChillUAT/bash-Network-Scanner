@@ -1,0 +1,21 @@
+NETWORK SECURITY SCAN REPORT
+Target IP: scanme.nmap.org
+Date: Mon Aug 11 02:14:36 UTC 2025
+
+Open Ports & Services using nMap v2:
+22/tcp    open     ssh        OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+80/tcp    open     http       Apache httpd 2.4.7 ((Ubuntu))
+9929/tcp  open     nping-echo Nping echo
+31337/tcp open     tcpwrapped
+
+Possible Vulnerabilities:
+CVE-2023-XXX - Old Web Server
+FTP Server uses default login
+
+Recommended Fixes:
+Update software
+Change default passwords
+Set up a firewall
+
+END OF REPORT
+Created: Mon Aug 11 02:14:46 UTC 2025
