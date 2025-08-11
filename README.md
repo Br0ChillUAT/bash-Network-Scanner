@@ -1,6 +1,6 @@
 # Project Title: Bash-Network-Scanner
 
-# Overview: Network Vulnerability Scanner and Report Generator
+# Network Vulnerability Scanner and Report Generator
 
 # Overview:
 Scan networks using commands. Building upon the lesson prior. 
