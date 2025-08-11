@@ -1,24 +1,17 @@
-# Bash-Network-Scanner
+# Project Title: Bash-Network-Scanner
 
-# Network Vulnerability Scanner and Report Generator
+# Overview: Network Vulnerability Scanner and Report Generator
 
-Any Bash script that scans a network should be done with consent or own network.
+# Overview:
+Scan networks using commands. Building upon the lesson prior. 
 
-## Overview:
-Lines of command to arrive at a finite result.
-
-Right now it:
-- Scans a given IP or hostname
-- Shows open ports and services
-- Adds some placeholder info for vulnerabilities and suggestions
-
-## Purpose/Learning:
+# Purpose/Learning:
 To develop skills, as those ahead of me are miles ahead!
 
-## Current Status:
-It's moving along but in small increments.
+# Current Status:
+It's moving along but in small increments. Just added the nMap command portion.
 
-## Future Goals:
-None at the moment, just enjoying the torturous ride. :D  This is a new language.
+# Future Goals:
+Simply enjoying the torturous ride. :D  This is a new language.
 
-UPDATE 1
+UPDATE 2
