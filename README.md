@@ -14,6 +14,6 @@ It's moving along but in small increments. Just added the nMap command portion.
 # Future Goals:
 Simply enjoying the torturous ride. :D  This is a new language.
 
-#NOTES:v6
+# NOTES:v6
 Assignment 7.2 Final Project Prep 
 	- Capstone Enhancement with a Live API 
