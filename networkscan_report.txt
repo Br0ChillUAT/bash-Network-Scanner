@@ -1,16 +1,22 @@
 NETWORK SECURITY SCAN REPORT
 Target IP: scanme.nmap.org
-Date: Mon Aug 11 02:14:36 UTC 2025
+Date: Tue Aug 19 20:36:04 UTC 2025
 
-Open Ports & Services using nMap v2:
+Open Ports & Services using nMap:
 22/tcp    open     ssh        OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
 80/tcp    open     http       Apache httpd 2.4.7 ((Ubuntu))
+|       Slowloris tries to keep many connections to the target web server open and hold
+|       them open as long as possible.  It accomplishes this by opening connections to
 9929/tcp  open     nping-echo Nping echo
 31337/tcp open     tcpwrapped
 
-Possible Vulnerabilities:
-CVE-2023-XXX - Old Web Server
-FTP Server uses default login
+Potential Vulnerabilities Identified:
+
+ID'd by nmap script:
+|   VULNERABLE:
+|     State: LIKELY VULNERABLE
+
+Manual service version check:
 
 Recommended Fixes:
 Update software
@@ -18,4 +24,4 @@ Change default passwords
 Set up a firewall
 
 END OF REPORT
-Created: Mon Aug 11 02:14:46 UTC 2025
+Created: Tue Aug 19 20:36:04 UTC 2025
