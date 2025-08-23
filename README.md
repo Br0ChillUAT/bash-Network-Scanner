@@ -1,4 +1,4 @@
-# Project Title: Bash-Network-Scanner- 
+# Project Title: Bash-Network-Scanner
 NVD (NIST National Vulnerability Database)
 
 # Network Vulnerability Scanner and Report Generator
