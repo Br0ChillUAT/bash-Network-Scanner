@@ -1,17 +1,20 @@
 #!/bin/bash
 
+set -euo pipefail
+
 if [ $# -ne 1 ]; then
   echo "Usage: $0 <target_ip>"
   exit 1
 fi
 
 TARGET="$1"
-REPORT_FILE="report.txt"
+REPORT_FILE="report_NVDt.txt"
 
 # Ask NVD about a product and version
 query_nvd() {
   product="$1"
   version="$2"
+	local results_limit=3
 
   echo "Checking $product $version in NVD..."
 
