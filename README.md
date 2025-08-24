@@ -15,6 +15,6 @@ It's moving along, but in small increments. Prior nMap ----> NVD cross-referenci
 # Future Goals:
 Simply enjoying the torturous ride. :D  This is a new language.
 
-# NOTE v6:
+# NOTE v7:
 Assignment 7.2 Final Project Prep 
 	- Capstone Enhancement with a Live API 
