@@ -8,9 +8,10 @@ if [ $# -ne 1 ]; then
 fi
 
 TARGET="$1"
-REPORT_FILE="report_NVDt.txt"
+REPORT_FILE="report_NVD-v2.txt"
 
-# Ask NVD about a product and version
+# NVD function
+
 query_nvd() {
   product="$1"
   version="$2"
